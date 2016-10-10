@@ -1,2 +1,9 @@
-# SonnenburgLab_Public
-Writeup of common tools, methods, protocols
+# Writeup of common tools, methods, protocols
+
+Here are a number of common and not-so-common operations/protocols used in the Sonnenburg Lab. 
+
+## Sherlock Setup
+[Installation of QIIME and dependencies, setting up QIIME environment and running QIIME](Sherlock_Cluster_QIIME_Setup.md)
+
+## Downloading Datasets
+[Batch Downloading from SRA](Retrieve_Raw_Data_From_SRA.md)
