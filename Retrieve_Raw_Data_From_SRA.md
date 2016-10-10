@@ -1,12 +1,12 @@
 # Retrieving bulk data from SRA in batch format
 
-Retrieving data from SRA can be a frustrating experience, requiring in many cases for you to download each file one by one. This can be especially frustrating when the project consists of hundreds of files/samples.
+Retrieving data from SRA can be a tedious experience, requiring in many cases for you to download each file one by one. This can be especially frustrating when the project consists of hundreds of files/samples.
 
 I've outlined steps and also included scripts to facilitate this process, allowing you to download any number of SRA files using a simple query.
 
-## Outline of steps to perform
+## Outline of the steps to perform
 
-Before beginning, if you do not have Entrez Direct (EDirect) installed, download and install from NCBI.
+Before beginning, if you do not have Entrez Direct (EDirect) installed, download and install from NCBI. This writeup assumes you've downloaded edirect to ~/bin/edirect -- this is for illustration purposes and not necessarily a recommendation.
 
 You will first need to identify which projects/samples you'd like to download. Here, I will be using project "SRP056480" as an example.
 
@@ -16,7 +16,7 @@ You will first need to identify which projects/samples you'd like to download. H
 ~/bin/edirect/esearch -db sra -query SRP056480 > esearch.SRP056480
 ```
 
-### 2. Retrieve Run Info using the metadata from the project
+### 2. Retrieve Run Info using the metadata from the Project
 ```bash
 cat esearch.SRP056480 | ~/bin/edirect/efetch --format runinfo > runinfo.SRP056480
 ```
@@ -35,6 +35,7 @@ python build_wget_list.py SRR_List.SRP056480
 
 ### 5. Download all FTP files
 ```bash
+# This will download all files lised in the SRR_List file to the current directory
 cat SRR_List.SRP056480.wget | xargs wget
 ```
 
