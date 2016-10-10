@@ -7,3 +7,8 @@ Here are a number of common and not-so-common operations/protocols used in the S
 
 ## Downloading Datasets
 [Batch Downloading from SRA](Retrieve_Raw_Data_From_SRA.md)
+
+## Protocols
+
+### Media
+[Salyer's Media](Media/Salyers_Media.md)
