@@ -24,6 +24,8 @@ Note: Actual final carbon source concentration is 0.476%
 
 *Mineral Salts Solution*
 
+Stock					| 1L
+------------- | ------
 NaCl					| 18 g
 CaCl2.2H2O 		| 0.53 g
 MgCl2.6H2O 		| 0.40 g
