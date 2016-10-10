@@ -1,6 +1,6 @@
 # Salyer's Minimal Media
 
-1. This needs to be made fresh on the day of the experiment, or frozen and thawed *only once*.
+1. This needs to be made fresh on the day of the experiment, or frozen and thawed __only once__.
 
 Stock 														| 100 mL 								| 500 mL
 ---------------------------------	| ---------------------	| -------------------
@@ -22,7 +22,7 @@ dH2O (use tap dH20)								| Bring vol to 100 ml 	| Bring vol to 500 ml
 3. If not added pre-sterilization, add filtered 10% carbohydrate source to 0.5% final concentration (5ml/100ml)
 Note: Actual final carbon source concentration is 0.476%
 
-*Mineral Salts Solution*
+__Mineral Salts Solution__
 
 Stock					| 1L
 ------------- | ------
