@@ -17,7 +17,7 @@
 	dH2O (use tap dH20)								| Bring vol to 100 ml 	| Bring vol to 500 ml
 
 2. Filter sterilize, then cover in foil.
-*Do not Autoclave* (This forms an unknown ppt). 
+__Do not Autoclave__ (This forms an unknown ppt). 
 
 3. If not added pre-sterilization, add filtered 10% carbohydrate source to 0.5% final concentration (5ml/100ml)
 Note: Actual final carbon source concentration is 0.476%
