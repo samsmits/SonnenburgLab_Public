@@ -2,19 +2,19 @@
 
 1. This needs to be made fresh on the day of the experiment, or frozen and thawed __only once__.
 
-Stock 														| 100 mL 								| 500 mL
----------------------------------	| ---------------------	| -------------------
-(NH4)2SO4 												| 0.1 g 								| 0.5 g
-Na2CO3														| 0.1 g									| 0.5 g
-cysteine, free base 							| 0.05 g 								| 0.25 g
-1 M KPO4, pH 7.2 									| 10 ml									| 50 ml
-Vitamin K solution, 1mg/ml 				| 0.1 ml 								| 0.5 ml
-FeSO4, 0,4 mg/ml 									| 1 ml 									| 5 ml
-Vitamin B12, 0.01 mg/ml 					| 0.05 ml 							| 0.25 ml
-Mineral Salts for defined medium 	| 5 ml 									| 25 ml
-Hematin/Histidine solution				| 0.1 ml 								| 0.5 ml
-Carbon Source (if adding before) 	| 0.5g 									| 2.5g
-dH2O (use tap dH20)								| Bring vol to 100 ml 	| Bring vol to 500 ml
+	Stock 														| 100 mL 								| 500 mL
+	---------------------------------	| ---------------------	| -------------------
+	(NH4)2SO4 												| 0.1 g 								| 0.5 g
+	Na2CO3														| 0.1 g									| 0.5 g
+	cysteine, free base 							| 0.05 g 								| 0.25 g
+	1 M KPO4, pH 7.2 									| 10 ml									| 50 ml
+	Vitamin K solution, 1mg/ml 				| 0.1 ml 								| 0.5 ml
+	FeSO4, 0,4 mg/ml 									| 1 ml 									| 5 ml
+	Vitamin B12, 0.01 mg/ml 					| 0.05 ml 							| 0.25 ml
+	Mineral Salts for defined medium 	| 5 ml 									| 25 ml
+	Hematin/Histidine solution				| 0.1 ml 								| 0.5 ml
+	Carbon Source (if adding before) 	| 0.5g 									| 2.5g
+	dH2O (use tap dH20)								| Bring vol to 100 ml 	| Bring vol to 500 ml
 
 2. Filter sterilize, then cover in foil.
 *Do not Autoclave* (This forms an unknown ppt). 
