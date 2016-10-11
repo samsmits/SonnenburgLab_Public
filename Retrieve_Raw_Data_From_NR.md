@@ -1,6 +1,6 @@
 # Retrieving bulk data from NCBI nr, etc
 
-Downloading sequence data from nr can be automated a number of ways. I've found the following method to be the simplest. 
+Downloading sequence data from nr can be automated in a number of ways. I've found the following method to be the simplest. 
 
 ## Outline of the steps to perform
 
@@ -8,14 +8,14 @@ Before beginning, if you do not have Entrez Direct (EDirect) installed, download
 
 ### 1. Identify the query that you'd like to use
 
-Here, I'm going to use the query "prevotella AND copri" to search for any sequences with both those words in the sequence description. It may be a good idea to first run the query through the [web interface](https://www.ncbi.nlm.nih.gov/nuccore/?term=prevotella+AND+copri) to ensure that your query is pulling the sequences that you're interested in, and also to formulate more complex queries if needed using the "Advanced Search" option. 
+Here, I'm going to use the query "prevotella AND copri" to search for any sequences with both those terms in the sequence description. It may be a good idea to first run the query through the [web interface](https://www.ncbi.nlm.nih.gov/nuccore/?term=prevotella+AND+copri) to ensure that your query is pulling the sequences that you're interested in, and also to formulate more complex queries if needed using the "Advanced Search" option. 
 
 Also, note the number of records that the query returns so that you can confirm that our automated process is consistent with your expectation. In this example, the query "prevotella AND copri" returns 2759 records (10/11/16).
 
 ### 2. Sanity test before downloading data
 *This step is optional but likely worth the trouble if you're downloading a large collection of sequences.*
 
-Run *esearch* using the following parameters, replacing the example query with your own:
+Run __esearch__ using the following parameters, replacing the example query with your own:
 ```bash
 ~/bin/edirect/esearch -db nucleotide -query "prevotella AND copri"
 ```
