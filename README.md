@@ -10,7 +10,7 @@ Here are a number of common and not-so-common operations/protocols used in the S
 [Batch Downloading from NCBI NR](Retrieve_Raw_Data_From_NR.md)
 
 ## Visualizations
-[Heatmaps](Visualizations/Heatmap/readme.md)
+[Heatmaps](Visualizations/Heatmap/)
 
 ## Protocols
 
