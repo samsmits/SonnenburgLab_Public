@@ -6,6 +6,9 @@
 
 </head>
 <body>
+	<h2>Default</h2>
+	<div id="graph0"></div>
+
 	<h2>Simple, without headers</h2>
 	<div id="graph1"></div>
 
@@ -27,6 +30,10 @@
 	]
 	headers = ["Firmicutes","Firmicutes","Firmicutes","Bacteroidetes","Verrucomicrobia","Firmicutes","Firmicutes"];
 
+
+	// Graph 0
+	graph = new Heatmap(data);
+	graph.renderTo('#graph0');
 
 	// Graph 1
 	var boxdim = 10;

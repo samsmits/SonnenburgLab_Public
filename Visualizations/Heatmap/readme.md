@@ -37,12 +37,16 @@ headers = ["Firmicutes","Firmicutes","Firmicutes","Bacteroidetes","Verrucomicrob
 
 ## Sample code
 
-The following renders a heatmap using default visual elements to a <div> with id="graph":
+__The following renders a heatmap using default visual elements to a &lt;div&gt; with id="graph":__
 ```javascript
 graph = new Heatmap(data);
 graph.renderTo('#graph');
+```
 
-The following renders a heatmap with headers defined, and unique sized cells:
+Output:
+![Default render](images/simple.png)
+
+__The following renders a heatmap with headers defined, and unique sized cells:__
 ```javascript
 graph = new Heatmap(
 	data,
@@ -57,6 +61,9 @@ graph = new Heatmap(
 graph.renderTo('#graph');	
 ```
 
+Output:
+![Render with Headers](images/headers.png)
+
 You can set your own color scale to work with your dataset by passing a colorscale function:
 ```javascript
 graph = new Heatmap(
@@ -70,7 +77,8 @@ graph = new Heatmap(
 graph.renderTo('#graph');	
 ```
 
-
+Output:
+![Render with unique colorscale](images/colorscale.png)
 
 
 

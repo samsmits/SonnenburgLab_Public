@@ -27,7 +27,7 @@
  *
  */
 
-Heatmap = function(data, optionalArgs){
+Heatmap = function(data, optionalArgs={}){
   this.data = data;
 
   // Defaults
