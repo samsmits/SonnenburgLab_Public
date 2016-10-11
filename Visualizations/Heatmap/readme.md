@@ -1,4 +1,4 @@
-# Heatmap vis using D3
+# Heatmap Visualization using D3
 
 I generated a Heatmap [pseudo-]class in Javascript for the extinction paper. There were some visual elements that I included in the paper (background coloring of rows, headers, lines between groups) that were partly hackishly written and in some cases hard-coded in order to generate quickly. I've stripped most of those elements from the code, leaving the main Heatmap class from which we can build up.
 
