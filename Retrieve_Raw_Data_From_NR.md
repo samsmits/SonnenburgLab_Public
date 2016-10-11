@@ -31,13 +31,13 @@ This will return in standard output an XML representation of the query results. 
 </ENTREZ_DIRECT>
 ```
 
-Note, that __Count__ is 2759 - consistent with the query results I obtained in step 1.
+Note that __Count__ is 2759 - consistent with the query results I obtained in step 1.
 
 ### 3. Download the sequence data
 
 In order to download sequence data for your specific use case, you'll need to redefine both the query and where to save the output. Here is the statement that I would run to download all 2759 records in my example:
 ```bash
-~/bin/esearch -db nucleotide -query "prevotella AND copri" | ~/bin/efetch -format gb > PCopri_10-11-16.gb
+~/bin/edirect/esearch -db nucleotide -query "prevotella AND copri" | ~/bin/edirect/efetch -format gb > PCopri_10-11-16.gb
 ```
 
 If you're downloading many sequences, it may be useful to run a quick sanity check to ensure that you've downloaded all sequences and that the process wasn't interrupted. Here, because Genbank records are separated by "//", I can quickly test the result with the following statement:
