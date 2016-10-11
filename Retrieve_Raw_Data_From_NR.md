@@ -8,7 +8,7 @@ Before beginning, if you do not have Entrez Direct (EDirect) installed, download
 
 ### 1. Identify the query that you'd like to use
 
-Here, I'm going to use the query "prevotella AND copri" to search for any sequences with both those words in the sequence description. It may be a good idea to first run the query through the [https://www.ncbi.nlm.nih.gov/nuccore/?term=prevotella+AND+copri](web interface) to ensure that your query is pulling the sequences that you're interested in, and also to formulate more complex queries if needed using the "Advanced Search" option. 
+Here, I'm going to use the query "prevotella AND copri" to search for any sequences with both those words in the sequence description. It may be a good idea to first run the query through the [web interface](https://www.ncbi.nlm.nih.gov/nuccore/?term=prevotella+AND+copri) to ensure that your query is pulling the sequences that you're interested in, and also to formulate more complex queries if needed using the "Advanced Search" option. 
 
 Also, note the number of records that the query returns so that you can confirm that our automated process is consistent with your expectation. In this example, the query "prevotella AND copri" returns 2759 records (10/11/16).
 
@@ -40,7 +40,7 @@ In order to download sequence data for your specific use case, you'll need to re
 ~/bin/esearch -db nucleotide -query "prevotella AND copri" | ~/bin/efetch -format gb > PCopri_10-11-16.gb
 ```
 
-If you're downloading many sequences, it may be useful to run a quick sanity check to ensure that you've downloaded all sequences and that the process wasn't interrupted. Here, because genbank records are separated by "//", I can quickly test the result with the following statement:
+If you're downloading many sequences, it may be useful to run a quick sanity check to ensure that you've downloaded all sequences and that the process wasn't interrupted. Here, because Genbank records are separated by "//", I can quickly test the result with the following statement:
 ```bash
 grep '//$' PCopri_10-11-16.gb | wc -l  # Returns 2759
 ```
