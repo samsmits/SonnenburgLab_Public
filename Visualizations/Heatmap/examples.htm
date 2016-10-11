@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script src="js/d3.v3.min.js" type="text/javascript"></script>
+	<script src="js/heatmap.js" type="text/javascript"></script>
+
+</head>
+<body>
+	<h2>Simple, without headers</h2>
+	<div id="graph1"></div>
+
+	<h2>Simple, with headers</h2>
+	<div id="graph2"></div>
+
+	<h2>Fat rectangles, and unique colorscale</h2>
+	<div id="graph3"></div>
+
+</body>
+<script type="text/javascript">
+
+	data = [
+		[0.15, 0.21, 0.90, 0.11, 0.45, 0.38, 0.12],
+		[0.34, 0.38, 0.98, 0.00, 0.00, 0.53, 0.43],
+		[0.12, 0.54, 0.32, 0.21, 0.00, 0.54, 0.55],
+		[0.99, 0.11, 0.33, 0.21, 0.12, 0.23, 0.43],
+		[0.10, 0.34, 0.11, 0.34, 0.99, 0.44, 0.34]
+	]
+	headers = ["Firmicutes","Firmicutes","Firmicutes","Bacteroidetes","Verrucomicrobia","Firmicutes","Firmicutes"];
+
+
+	// Graph 1
+	var boxdim = 10;
+	var boxpadding = 1;
+	graph = new Heatmap(
+		data,
+		{ 
+			width: ((boxpadding + boxdim) * data[0].length) + 100,
+			height: ((boxpadding + boxdim) * data.length) + 100,
+			boxWidth: boxdim,
+			boxHeight: boxdim
+		}
+	);
+	graph.renderTo('#graph1');
+
+	// Graph 2
+	var boxdim = 10;
+	var boxpadding = 1;
+	graph = new Heatmap(
+		data,
+		{ 
+			width: ((boxpadding + boxdim) * data[0].length) + 100,
+			height: ((boxpadding + boxdim) * data.length) + 100,
+			boxWidth: boxdim,
+			boxHeight: boxdim,
+			showHeader: headers
+		}
+	);
+	graph.renderTo('#graph2');
+
+	// Graph 3
+	var boxpadding = 1;
+	graph = new Heatmap(
+		data,
+		{ 
+			width: ((boxpadding + 30) * data[0].length) + 100,
+			height: ((boxpadding + 5) * data.length) + 100,
+			boxWidth: 30,
+			boxHeight: 8,
+			showHeader: headers,
+			colorScale: d3.scale.linear()
+		    .domain([0, 1])
+		    .range(['#FFF', '#000'])
+		}
+	);
+	graph.renderTo('#graph3');	
+
+</script>
+
+</html>
