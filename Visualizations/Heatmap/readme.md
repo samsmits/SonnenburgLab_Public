@@ -43,7 +43,7 @@ graph = new Heatmap(data);
 graph.renderTo('#graph');
 ```
 
-Output:
+Output:  
 ![Default render](images/simple.png)
 
 __The following renders a heatmap with headers defined, and unique sized cells:__
@@ -61,7 +61,7 @@ graph = new Heatmap(
 graph.renderTo('#graph');	
 ```
 
-Output:
+Output:  
 ![Render with Headers](images/headers.png)
 
 You can set your own color scale to work with your dataset by passing a colorscale function:
@@ -77,7 +77,7 @@ graph = new Heatmap(
 graph.renderTo('#graph');	
 ```
 
-Output:
+Output:  
 ![Render with unique colorscale](images/colorscale.png)
 
 
