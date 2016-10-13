@@ -1,14 +1,14 @@
 # Blood Heart Infusion - Blood Agar
 
-### BHI-BA is an enriched, non-selective media for the cultivation and isolation of a wide variety of bacteria, including yeast and molds.  Horse blood stimulates growth.
+#### BHI-BA is an enriched, non-selective media for the cultivation and isolation of a wide variety of bacteria, including yeast and molds.  Horse blood stimulates growth.
 
 ## Protocol 
 1. Add 26g of BHI Agar powder (Fisher Scientific cat no. DF0418177) to 450mls of DI water  
 2. Bring to a boil to dissolve completely
-3. Autoclave at 121oC for 15 min
-4. Cool to 50oC in water bath
+3. Autoclave at 121C for 15 min
+4. Cool to 50C in water bath
 5. Aseptically add 10% defibrinated horse blood (Lampire, cat no 50412331; ordered from Fisher Scientific)
-6. 500 mls of media will pour 20 plates (1 sleeve)
+6. 500mls of media will pour 20 plates (1 sleeve)
 
 __Notes__:  
 * Let defibrinated horse blood come to room temperature before adding to media  
@@ -17,7 +17,7 @@ __Notes__:
 
 ### Components of BHI Agar powder (Fisher Scientific cat no. DF0418177)
 
-Component								| g
+Component								| g/L
 ----------------------- | ------
 Calf Brains, infusion		| 7.7
 Beef Heart, infusion		| 9.8
