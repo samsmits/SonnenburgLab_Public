@@ -40,4 +40,4 @@ In step 14, you will do one final pelleting in a 1ml collection plate.  2ml coll
 
 In steps 16-19, you will transfer your supernatant to a 2ml collection plate and then add and mix 650 ul C4 TWICE. We pre-aliquoted 1300 ul of C4 into the 2ml collection plate and then transferred and mixed the supernatant into the 1300 ul.  Then, using the same tips, directly transfer 650 ul from the mix onto the spin filters (step 21).
 
-**Do not use Elution Sealing Mats in the final step after eluting your DNA.** They were created by the Devil himself to tempt you but they will lead you down a path to ruination. Not only are they hard to put on, they’re really hard to take off without spraying your samples everywhere.  Just use the foil tape to seal your DNA products.
+**Do not use Elution Sealing Mats in the final step after eluting your DNA.** They were created by the Devil himself to tempt you but they will lead you down a path to [much ruination](http://www.beeradvocate.com/beer/profile/147/168971/). Not only are they hard to put on, they’re really hard to take off without spraying your samples everywhere.  Just use the foil tape to seal your DNA products.
