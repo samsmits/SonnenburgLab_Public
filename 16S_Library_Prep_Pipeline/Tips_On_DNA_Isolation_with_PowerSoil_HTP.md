@@ -13,7 +13,7 @@ Keep track of how your plates are oriented (ie, where A1 is).  For some baffling
 
 Centrifuge tape (fabric-like, used to cover the spin filter plates) and sealing tape (shiny, used to cover the other plates) are not the same.
 
-**Do not throw away the square well mat.** Without it, the wells will not seal properly seal during beadbeating. When loading samples, store this mat so that it won’t get contaminated with exogenous DNA (e.g. wrap in ethanol-cleaned foil).
+**Do not throw away the square well mat.** Without it, the wells will not seal properly seal during beadbeating. When loading samples, store this mat so that it won’t get contaminated with exogenous DNA (e.g. wrap in ethanol-cleaned foil). Do not freeze (apparently the Relman group experienced issues with doing this).
 
 ### Protocol for Loading Samples
 1. First spin down the bead plates that you are going to load.  This will help the beads not stick to the mat as you are pulling them off. If you don't do this, sometimes the beads get wedged between the wells, which can be a problem when you bead beat.
