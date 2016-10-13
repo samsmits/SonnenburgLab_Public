@@ -18,5 +18,5 @@ Here are a number of common and not-so-common operations/protocols used in the S
 [Tips for MoBio PowerSoil High Throughput 96 Well Soil DNA Isolation Kit](16S_Library_Prep_Pipeline/Tips_On_DNA_Isolation_with_PowerSoil_HTP.md)
 
 ### Media
-[Salyer's Media](Media/Salyers_Media.md)
+[Salyer's Media](Media/Salyers_Media.md)  
 [BHI-BA](Media/BHI_BA.md)
