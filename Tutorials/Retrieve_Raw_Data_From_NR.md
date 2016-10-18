@@ -33,12 +33,35 @@ This will return in standard output an XML representation of the query results. 
 
 Note that __Count__ is 2759 - consistent with the query results I obtained in step 1.
 
+If you encounter errors, it may be because you are missing Perl dependencies. To avoid this, install miniconda if you haven't done so already and run these library installation commands:
+
+```# Download miniconda
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+# Run installer
+sh Miniconda3-latest-Linux-x86_64.sh
+
+# Remove Miniconda installer
+rm Miniconda3-latest-Linux-x86_64.sh
+
+# Source new paths
+source ~/.bashrc
+
+# Install Perl and dependencies:
+conda install -c bioconda perl=5.22.0
+conda install -c bioconda perl-app-cpanminus=1.7039
+conda install -c bioconda perl-html-parser
+conda install -c bioconda perl-lwp-simple
+conda install -c bioconda perl-lwp-protocol-https
+```
+
 ### 3. Download the sequence data
 
 In order to download sequence data for your specific use case, you'll need to redefine both the query and where to save the output. Here is the statement that I would run to download all 2759 records in my example:
 ```bash
 ~/bin/edirect/esearch -db nucleotide -query "prevotella AND copri" | ~/bin/edirect/efetch -format gb > PCopri_10-11-16.gb
 ```
+Its recommended to run this as a submitted job if you are fetching a large number of sequences. 
 
 If you're downloading many sequences, it may be useful to run a quick sanity check to ensure that you've downloaded all sequences and that the process wasn't interrupted. Here, because Genbank records are separated by "//", I can quickly test the result with the following statement:
 ```bash
