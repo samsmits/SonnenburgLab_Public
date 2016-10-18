@@ -35,7 +35,8 @@ Note that __Count__ is 2759 - consistent with the query results I obtained in st
 
 If you encounter errors, it may be because you are missing Perl dependencies. To avoid this, install miniconda if you haven't done so already and run these library installation commands:
 
-```# Download miniconda
+```bash
+# Download miniconda
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 # Run installer

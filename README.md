@@ -20,3 +20,7 @@ Here are a number of common and not-so-common operations/protocols used in the S
 ### Media
 [Salyer's Media](Media/Salyers_Media.md)  
 [BHI-BA](Media/BHI_BA.md)
+
+## Analyses
+
+[CAZyme Categorization](Tutorials/Cazyme_Cateogories.md)
