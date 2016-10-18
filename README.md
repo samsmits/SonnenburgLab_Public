@@ -23,4 +23,4 @@ Here are a number of common and not-so-common operations/protocols used in the S
 
 ## Analyses
 
-[CAZyme Categorization](Tutorials/Cazyme_Cateogories.md)
+[CAZyme Categorization](Tutorials/Cazyme_Categories.md)
