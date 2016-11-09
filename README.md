@@ -17,6 +17,9 @@ Here are a number of common and not-so-common operations/protocols used in the S
 ### 16S rRNA Community Composition Library Preparation Pipeline
 [Tips for MoBio PowerSoil High Throughput 96 Well Soil DNA Isolation Kit](Tutorials/Tips_On_DNA_Isolation_with_PowerSoil_HTP.md)
 
+### Metabolomics 
+[Fecal sample preparation](Metabolomics/Fecal_Preparation.md) 
+ 
 ### Media
 [Salyer's Media](Media/Salyers_Media.md)  
 [BHI-BA](Media/BHI_BA.md)
